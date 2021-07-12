@@ -1,10 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
 
 :root {
-  --primary-background-color: LavenderBlush;
-  --primary-background-color-darker: #ffdce7;
-  --secondary-background-color: bisque;
-  --list-seperation-color: papayawhip;
+  --secondary-background-color: rgba(245, 245, 245, 0.6);
+  --list-seperation-color: rgba(245, 245, 245, 0.6);
   --button-color: #fc999b;
   --color1: white;
   --color2: black;
@@ -15,10 +13,17 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   font: normal normal 13px/16px 'Open Sans', sans-serif;
   font-weight: 400;
-  background-color: var(--primary-background-color-darker);
+  background: linear-gradient(red, transparent), linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
 }
 
 .container {

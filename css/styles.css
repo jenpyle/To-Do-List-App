@@ -11,6 +11,7 @@
 
 * {
   box-sizing: border-box;
+  font-size: large;
 }
 
 html,
@@ -26,16 +27,21 @@ body {
   background-blend-mode: screen;
 }
 
+h2 {
+  font-size: 2.5rem;
+}
+
 .container {
   padding: 20px;
-  width: 400px;
+  width: 27rem;
   margin: 0 auto;
   margin-top: 40px;
   background: var(--secondary-background-color);
   border-style: solid;
   border-radius: 45px;
-  border-width: 5px;
+  border-width: 6px;
   border-color: var(--color1);
+  text-align: center;
 }
 
 form {
@@ -43,6 +49,7 @@ form {
 }
 
 input {
+  border-radius: 5px;
   padding: 4px 5px 4px 5px;
 }
 
@@ -55,9 +62,8 @@ input[type='text'] {
   background-color: var(--button-color);
   color: var(--color1);
   border-radius: 5px;
-  text-align: center;
-  margin-top: 2px;
-  padding: 5px 15px;
+  margin-top: 3px;
+  padding: 7px 20px;
 }
 
 #button:hover {
@@ -67,6 +73,7 @@ input[type='text'] {
 
 ol {
   padding-left: 20px;
+  line-height: 1.5rem;
 }
 
 ol li {
@@ -97,9 +104,9 @@ li > crossOutButton {
   float: right;
   color: var(--color1);
   background-color: var(--button-color);
-  font-weight: 700px;
+  font-weight: 1.5rem;
   border-style: solid;
   border-radius: 50%;
-  padding-left: 4px;
-  padding-right: 4px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
